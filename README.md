@@ -43,7 +43,7 @@ Covering the most important function which is:
 The first line opens the file and reads the file content into a vector of bytes. There's a for loop that modifies the file contents by applying the XOR operation to each bytes with the specified key and finally writes the modified content back to the same file.
 
 ## Installation and Usage
-Your system should present rust:
+Your system should present rust. In main modify the path of Wanted file or directory as needed :
 ```bash
 $ git clone https://github.com/0x00snape/XorLock.git
 $ cd XorLock
